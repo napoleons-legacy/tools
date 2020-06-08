@@ -270,7 +270,7 @@ class Localization:
         return "" if len(chars) == 0 else value
 
     @classmethod
-    def to_str(self: L, entry: Iterable[str]) -> str:
+    def to_str(cls: L, entry: Iterable[str]) -> str:
         """Output an iterable row as a semi-colon joined string with
         an extra semi-colon at the end.
         """
